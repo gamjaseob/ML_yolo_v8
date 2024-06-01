@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 1
-names: ['toilet-paper']
+nc: 6
+names: ['cocacola', 'fantaorange', 'galamandeunbae', 'pocarisweat', 'sprite', 'welchs']
 
 roboflow:
-  workspace: project-zlrja
-  project: toilet-paper-detection
+  workspace: mins-workspace
+  project: objectdetection_drink
   version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/project-zlrja/toilet-paper-detection/dataset/1
+  url: https://universe.roboflow.com/mins-workspace/objectdetection_drink/dataset/1

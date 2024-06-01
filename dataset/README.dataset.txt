@@ -1,5 +1,5 @@
-# toilet paper detection > 2024-03-29 3:47pm
-https://universe.roboflow.com/project-zlrja/toilet-paper-detection
+# ObjectDetection_drink > 2023-10-20 1:07am
+https://universe.roboflow.com/mins-workspace/objectdetection_drink
 
 Provided by a Roboflow user
 License: CC BY 4.0

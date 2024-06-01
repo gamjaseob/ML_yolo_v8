@@ -1,8 +1,8 @@
 
-toilet paper detection - v1 2024-03-29 3:47pm
+ObjectDetection_drink - v1 2023-10-20 1:07am
 ==============================
 
-This dataset was exported via roboflow.com on March 29, 2024 at 8:47 AM GMT
+This dataset was exported via roboflow.com on October 19, 2023 at 4:10 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,12 +17,13 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 100 images.
-Toilet-paper are annotated in YOLOv8 format.
+The dataset includes 377 images.
+Beverage are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 640x640 (Stretch)
+* Auto-contrast via adaptive equalization
 
 No image augmentation techniques were applied.
 
