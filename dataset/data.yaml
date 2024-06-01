@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['toilet-paper']
+
+roboflow:
+  workspace: project-zlrja
+  project: toilet-paper-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-zlrja/toilet-paper-detection/dataset/1
