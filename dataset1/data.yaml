@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['cocacola', 'fantaorange', 'galamandeunbae', 'pocarisweat', 'sprite', 'welchs']
+
+roboflow:
+  workspace: mins-workspace
+  project: objectdetection_drink
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mins-workspace/objectdetection_drink/dataset/1

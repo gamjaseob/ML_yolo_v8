@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 6
-names: ['cocacola', 'fantaorange', 'galamandeunbae', 'pocarisweat', 'sprite', 'welchs']
+nc: 10
+names: ['cocacola', 'fantaorange', 'galamandeunbae', 'gatolei', 'janchijipsikhye', 'letsbe', 'milkis', 'pocarisweat', 'sprite', 'welchsgrape']
 
 roboflow:
   workspace: mins-workspace
-  project: objectdetection_drink
+  project: objectdetection_drink4
   version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/mins-workspace/objectdetection_drink/dataset/1
+  url: https://universe.roboflow.com/mins-workspace/objectdetection_drink4/dataset/1
